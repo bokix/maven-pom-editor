@@ -1,6 +1,6 @@
 # Maven POM Editor
 
-[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://marketplace.visualstudio.com/items?itemName=Bokix.maven-pom-editor)
+[![Version](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://marketplace.visualstudio.com/items?itemName=Bokix.maven-pom-editor)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 一个 VS Code 扩展，专为 Maven 项目的 POM 文件提供可视化编辑和依赖管理功能。通过直观的界面查看依赖层次结构、快速排除冲突依赖，让 Maven 依赖管理变得简单高效。

@@ -2,7 +2,7 @@
   "name": "maven-pom-editor",
   "displayName": "Maven POM Editor",
   "description": "Advanced Maven POM editor with dependency hierarchy visualization",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Bokix",
   "icon": "images/icon.png",
   "engines": {
