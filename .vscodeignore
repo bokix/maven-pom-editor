@@ -21,10 +21,13 @@ src/**
 node_modules/**
 
 # 文档和示例（可选，根据需要调整）
-vsc-extension-quickstart.md
-DEVELOPMENT.md
 example-pom.xml
 .kilocode/**
+
+# 排除所有 .md 文件，但保留 README.md 和 CHANGELOG.md
+*.md
+!README.md
+!CHANGELOG.md
 
 # 测试文件
 **/*.test.ts

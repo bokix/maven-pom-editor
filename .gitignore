@@ -12,6 +12,11 @@ node_modules/
 out/
 dist/
 
+# 排除所有 .md 文件，但保留 README.md 和 CHANGELOG.md
+*.md
+!README.md
+!CHANGELOG.md
+
 # VS Code settings (keep some, ignore others)
 .vscode/*
 !.vscode/settings.json
