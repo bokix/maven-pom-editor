@@ -42,6 +42,16 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
+    "configuration": {
+      "title": "Maven POM Editor",
+      "properties": {
+        "mavenPomEditor.mavenExecutablePath": {
+          "type": "string",
+          "default": "mvn",
+          "description": "Path to the Maven executable. Use 'mvn' to use the system PATH, or specify the full path to the Maven executable (e.g., 'C:\\apache-maven-3.9.0\\bin\\mvn.cmd' on Windows or '/usr/local/bin/mvn' on Linux/macOS)."
+        }
+      }
+    },
     "customEditors": [
       {
         "viewType": "mavenPomEditor.editor",
