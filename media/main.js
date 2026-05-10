@@ -1188,4 +1188,21 @@
         type: 'log',
         content: 'Maven POM Editor webview is ready'
     });
+
+    // 自动加载默认激活的标签页内容
+    // 检查哪个标签页是默认激活的，并加载其内容
+    const activeTab = document.querySelector('.tab-button.active');
+    if (activeTab) {
+        const activeTabId = activeTab.getAttribute('data-tab');
+        if (activeTabId === 'effective-pom' && !effectivePomLoaded) {
+            // 延迟一小段时间确保 Monaco Editor 已经加载完成
+            setTimeout(() => {
+                loadEffectivePom();
+            }, 100);
+        } else if (activeTabId === 'dependency-hierarchy' && !dependencyTreeLoaded) {
+            setTimeout(() => {
+                loadDependencyTree();
+            }, 100);
+        }
+    }
 })();

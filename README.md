@@ -2,7 +2,7 @@
 
 English | [中文](README.zh.md)
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://marketplace.visualstudio.com/items?itemName=Bokix.maven-pom-editor)
+[![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)](https://marketplace.visualstudio.com/items?itemName=Bokix.maven-pom-editor)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 A VS Code extension that provides visual editing and dependency management for POM files in Maven projects. View dependency hierarchies through an intuitive interface, quickly exclude conflicting dependencies, and make Maven dependency management simple and efficient.
@@ -50,7 +50,7 @@ A VS Code extension that provides visual editing and dependency management for P
 
 ### Install from VSIX File
 ```bash
-code --install-extension maven-pom-editor-0.1.0.vsix
+code --install-extension maven-pom-editor-0.1.1.vsix
 ```
 
 ## 🎯 Usage
